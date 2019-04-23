@@ -41,6 +41,7 @@ end
 
 def kesha_maker(arr)
   res = []
+  temp = ""
   arr.each do |s|
     s.chars.each_with_index do |c, i|
       
