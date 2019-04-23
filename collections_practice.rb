@@ -52,6 +52,7 @@ def kesha_maker(arr)
       binding.pry
     end
     temp += " "
+    binding.pry
   end
   #binding.pry
 end
