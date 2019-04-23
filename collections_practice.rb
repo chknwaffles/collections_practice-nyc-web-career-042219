@@ -53,5 +53,5 @@ def kesha_maker(arr)
     end
     binding.pry
   end
-  binding.pry
+  #binding.pry
 end
