@@ -57,3 +57,6 @@ end
 def find_a(arr)
   arr.select {|s| s.start_with?("a") }
 end
+
+def sum_array(arr)
+  arr.inject(+)
