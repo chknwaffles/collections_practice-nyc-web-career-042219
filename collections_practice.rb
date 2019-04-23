@@ -64,6 +64,6 @@ end
 
 def add_s(arr)
   arr.each_with_index.map do |e, i|
-    e += s unless i == 1
+    e += 's' unless i == 1
   end
 end
