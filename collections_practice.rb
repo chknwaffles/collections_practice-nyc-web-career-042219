@@ -41,15 +41,9 @@ end
 
 def kesha_maker(arr)
   res = []
-  count = 0
-  res = arr.each do |s| 
-    s.chars.map do |c|
-      if count == 2
-        c = '$'
-        #binding.pry
-      end
-      count += 1
-    end.join
-    binding.pry
+  arr.each do |s|
+    s.chars.each_with_index do |c, i|
+      
+    end
   end
 end
