@@ -53,3 +53,7 @@ def kesha_maker(arr)
   end
   res.split(" ")
 end
+
+def find_a(arr)
+  arr.select {|s| s.start_with?("a") }
+end
