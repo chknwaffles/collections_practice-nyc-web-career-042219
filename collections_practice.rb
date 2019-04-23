@@ -64,7 +64,7 @@ end
 
 def add_s(arr)
   arr.each_with_index.map do |e, i|
-    if i != 2
+    if i != 1
       e += 's'
     else
       e
