@@ -52,6 +52,6 @@ def kesha_maker(arr)
     end
     temp += " "
   end
-  temp
+  temp.split(" ")
   binding.pry
 end
