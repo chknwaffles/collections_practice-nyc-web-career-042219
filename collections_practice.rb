@@ -44,12 +44,12 @@ def kesha_maker(arr)
   arr.each do |s|
     s.chars.each_with_index do |c, i|
       if i == 2
-        temp += '$'
+        res += '$'
       else
-        temp += c
+        res += c
       end
     end
-    temp += " "
+    res += " "
   end
-  temp.split(" ")
+  res.split(" ")
 end
